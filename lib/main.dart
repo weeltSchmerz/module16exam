@@ -24,7 +24,7 @@ class ContactListScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey.shade200,
       appBar: AppBar(
-        title: const Text("Contact List"),
+        title: const Text("Contact List",style: TextStyle(fontSize: 20, color: Colors.white)),
         centerTitle: true,
         backgroundColor: const Color(0xFF546E7A),
       ),
